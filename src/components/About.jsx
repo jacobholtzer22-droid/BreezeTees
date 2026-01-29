@@ -7,12 +7,12 @@ export default function About() {
             Our Story
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
-            Breeze Tees started with a simple idea: tees that feel as good as they look.
-            We focus on clean design, soft cotton, and fits that work for everyday life.
-            No logos, no noise — just your vibe.
+            We wanted comfort without sacrificing style — something you could actually relax in
+            while wearing a design you really love. That’s what Breeze Tees is about: comfort and
+            design in one. Soft cotton, clean fits, and graphics that feel like you.
           </p>
           <p className="mt-4 text-slate-600 dark:text-slate-400">
-            Every piece is made with care so you can wear it again and again.
+            No logos, no noise. Just tees that feel as good as they look.
           </p>
         </div>
       </div>
