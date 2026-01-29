@@ -31,12 +31,12 @@ export default function ProductGrid() {
   }
 
   return (
-    <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <section className="mx-auto max-w-7xl px-2 py-8 sm:px-4 sm:py-12 lg:px-8">
       <h2 className="mb-6 text-2xl font-semibold text-slate-900 dark:text-slate-100">
         Shop Tees
       </h2>
       <FilterBar filters={filters} onFilterChange={setFilters} />
-      <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-6 grid grid-cols-3 gap-2 sm:gap-4 sm:grid-cols-2 lg:gap-6 lg:grid-cols-3">
         {filteredAndSortedProducts.map((product) => (
           <ProductCard
             key={product.id}
